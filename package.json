@@ -1,0 +1,16 @@
+{
+  "name": "@hscmap/cache-map",
+  "version": "1.0.0",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "test": "ts-node ./spec/*.ts"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.77",
+    "lodash": "^4.17.4"
+  },
+  "homepage": "https://github.com/michitaro/cache-map",
+  "repository": "github:michitaro/cache-map"
+}
