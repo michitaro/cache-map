@@ -1,6 +1,6 @@
 # Introduction
 CacheMap is an Es6's Map-like collection class with a limit of number of items.
-The limit must be specified at initialization.
+The limit must be specified at initialization time.
 ## Install
 ```sh
 npm install --save @hscmap/cache-map
