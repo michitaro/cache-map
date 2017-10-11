@@ -1,5 +1,5 @@
 # Introduction
-CacheMap is a Es6's Map-like collection class with a limit of number of items.
+CacheMap is an Es6's Map-like collection class with a limit of number of items.
 The limit must be specified at initialization.
 ## Install
 ```sh
