@@ -36,10 +36,12 @@ const assert = (test: boolean) => console.assert(test)
     cm.set('one', 1)
     cm.set('two', 2)
 
+    assert(_.isEqual(cm.keys().sort(), ['one', 'two'].sort()))
+    
     cm.delete('one')
     assert(cm.get('one') == undefined)
     assert(cm.size == 1)
-
+    assert(_.isEqual(cm.keys(), ['two']))
 })()
 
 

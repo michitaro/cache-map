@@ -50,6 +50,12 @@ export class CacheMap<K, V> {
         }
     }
 
+    keys() {
+        const keys: K[] = []
+        this.byNum.forEach(pack => keys.push(pack.k))
+        return keys
+    }
+
     clear() {
         const packs: Pack<K, V>[] = []
         this.byNum.forEach(pack => packs.push(pack))
